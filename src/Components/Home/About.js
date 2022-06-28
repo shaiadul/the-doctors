@@ -1,5 +1,8 @@
 import React from 'react';
-import pic from '../../images/oral-surgery.svg'
+import dantal01 from '../../images/dental01.svg'
+import dantal02 from '../../images/dental02.svg'
+import dantal03 from '../../images/dental03.svg'
+import dantal04 from '../../images/dental04.svg'
 
 const About = () => {
     return (
@@ -16,7 +19,7 @@ const About = () => {
                 <div class="w-full lg:w-1/2 lg:px-8 mt-12 lg:mt-0">
                     <div class="md:flex">
                         <div>
-                            <div class="w-16 h-16 bg-blue-600 rounded-full"></div>
+                            <div class="w-16 h-16 bg-teal-600 rounded-full"></div>
                         </div>
                         <div class="md:ml-8 mt-4 md:mt-0">
                             <h4 class="text-xl font-bold leading-tight">Everything You Need Under One Roof</h4>
@@ -28,7 +31,7 @@ const About = () => {
 
                     <div class="md:flex mt-8">
                         <div>
-                            <div class="w-16 h-16 bg-blue-600 rounded-full"></div>
+                            <div class="w-16 h-16 bg-teal-600 rounded-full"></div>
                         </div>
                         <div class="md:ml-8 mt-4 md:mt-0">
                             <h4 class="text-xl font-bold leading-tight">Our Patient-Focused Approach</h4>
@@ -44,7 +47,7 @@ const About = () => {
             <div class="md:flex md:flex-wrap mt-24 text-center md:-mx-4">
                 <div class="md:w-1/2 md:px-4 lg:w-1/4">
                     <div class="bg-white rounded-lg border border-gray-300 p-8">
-                        <img src="https://www.nicepng.com/png/detail/38-386503_png-file-svg-dentist-icon-png.png" alt="" class="h-20 mx-auto"/>
+                        <img src={dantal01} alt="" class="h-20 mx-auto"/>
 
                             <h4 class="text-xl font-bold mt-4">Teeth Whitening</h4>
                             <p class="mt-1">Let us show you how our experience.</p>
@@ -54,7 +57,7 @@ const About = () => {
 
                 <div class="md:w-1/2 md:px-4 mt-4 md:mt-0 lg:w-1/4">
                     <div class="bg-white rounded-lg border border-gray-300 p-8">
-                        <img src="images/oral-surgery.svg" alt="" class="h-20 mx-auto"/>
+                        <img src={dantal02} alt="" class="h-20 mx-auto"/>
 
                             <h4 class="text-xl font-bold mt-4">Oral Surgery</h4>
                             <p class="mt-1">Let us show you how our experience.</p>
@@ -64,7 +67,7 @@ const About = () => {
 
                 <div class="md:w-1/2 md:px-4 mt-4 md:mt-8 lg:mt-0 lg:w-1/4">
                     <div class="bg-white rounded-lg border border-gray-300 p-8">
-                        <img src="images/painless-dentistry.svg" alt="" class="h-20 mx-auto"/>
+                        <img src={dantal03} alt="" class="h-20 mx-auto"/>
 
                             <h4 class="text-xl font-bold mt-4">Painless Dentistry</h4>
                             <p class="mt-1">Let us show you how our experience.</p>
@@ -74,7 +77,7 @@ const About = () => {
 
                 <div class="md:w-1/2 md:px-4 mt-4 md:mt-8 lg:mt-0 lg:w-1/4">
                     <div class="bg-white rounded-lg border border-gray-300 p-8">
-                        <img src="images/periodontics.svg" alt="" class="h-20 mx-auto"/>
+                        <img src={dantal04} alt="" class="h-20 mx-auto"/>
 
                             <h4 class="text-xl font-bold mt-4">Periodontics</h4>
                             <p class="mt-1">Let us show you how our experience.</p>
